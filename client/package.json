@@ -1,0 +1,24 @@
+{
+  "name": "@declaration-dep-test/client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-esm index.ts",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "a": "file:../a",
+    "b": "file:../b"
+  },
+  "devDependencies": {
+    "@types/a": "file:../@types/a",
+    "@types/b": "file:../@types/b",
+    "@types/node": "^18.15.11",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3"
+  },
+  "type": "module"
+}
