@@ -5,7 +5,7 @@
     "lib": ["es2022"],
     "module": "ESNext",
     "target": "es2022",
-    "strict": false,
+    "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node"
